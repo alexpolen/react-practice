@@ -1,38 +1,6 @@
-.App {
-  text-align: center;
-}
+/* App.css styling is applied to root file and any component in the browser*/
+/*CSS is applied to the <head> of the browser - doesn't scope to a single component*/
+/*can use css modules or styled components to scope styles to specific components*/
+/*add css to index.css - global style sheet - index.css is imported to app.css and ads them to <head>*/
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/*Not using App.css for this practice project - using index.css
